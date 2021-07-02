@@ -1,0 +1,35 @@
+.header {
+  // header height
+  z-index: 10;
+
+  @media (min-width: 1200px) {
+    height: var(--header-height-xxl);
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    height: var(--header-height-xl);
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    height: var(--header-height-lg);
+  }
+  @media (max-width: 767px) {
+    height: var(--header-height-sm-xs);
+  }
+
+  a:hover {
+    color: #f24259;
+  }
+
+  .navContainerMobile {
+    backdrop-filter: blur(8px);
+    background-color: rgba(31, 33, 37, 0.9);
+    z-index: 11;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    margin: 0px !important;
+    padding-top: 11.85px;
+    padding-right: 12.5px;
+    padding-bottom: 25px;
+  }
+}

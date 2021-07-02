@@ -1,0 +1,27 @@
+.welcomeSection {
+  .welcomeCard {
+    .card {
+      height: 300px;
+      @media (max-width: 575px) {
+        height: 250px;
+      }
+      border-radius: 25px;
+      border: none;
+      background-color: #ada8a81a;
+      transition: 0.2s;
+      .bi {
+        color: #ee373d;
+        margin-bottom: 18px;
+      }
+    }
+    .card:hover {
+      .bi {
+        color: white;
+      }
+      color: white;
+      transition: 0.3s;
+      transform: rotateY(360deg);
+      background-color: #ee373d;
+    }
+  }
+}
