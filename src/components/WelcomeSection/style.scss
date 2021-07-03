@@ -2,6 +2,12 @@
   .welcomeCard {
     .card {
       height: 300px;
+      @media (min-width: 992px) and (max-width: 1199px) {
+        height: 350px;
+      }
+      @media (min-width: 576px) and (max-width: 991px) {
+        height: 450px;
+      }
       @media (max-width: 575px) {
         height: 250px;
       }
