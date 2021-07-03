@@ -1,0 +1,35 @@
+.welcomeSection .welcomeCard .card {
+  height: 300px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ada8a81a;
+  transition: 0.2s;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .welcomeSection .welcomeCard .card {
+    height: 350px;
+ }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .welcomeSection .welcomeCard .card {
+    height: 450px;
+ }
+}
+@media (max-width: 575px) {
+  .welcomeSection .welcomeCard .card {
+    height: 250px;
+ }
+}
+.welcomeSection .welcomeCard .card .bi {
+  color: #ee373d;
+  margin-bottom: 18px;
+}
+.welcomeSection .welcomeCard .card:hover {
+  color: white;
+  transition: 0.3s;
+  transform: rotateY(360deg);
+  background-color: #ee373d;
+}
+.welcomeSection .welcomeCard .card:hover .bi {
+  color: white;
+}

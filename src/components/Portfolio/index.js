@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import "./style.scss"
+import "./style.css"
 import { PORTFOLIO_ITEMS, PORTFOLIO_CATEGORIES } from "../../data"
 
 function Portfolio() {

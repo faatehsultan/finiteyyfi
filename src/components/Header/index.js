@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import "./style.scss"
+import "./style.css"
 import HybridLink from "../Utils/HybridLink"
 import { Link } from "@reach/router"
 

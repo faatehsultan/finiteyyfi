@@ -1,6 +1,6 @@
 import React from "react"
 import { Header } from "../../components"
-import "./style.scss"
+import "./style.css"
 
 function MainLayout(props) {
   return (

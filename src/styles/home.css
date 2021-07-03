@@ -1,0 +1,19 @@
+@import url("./global.css");
+.home .break1 {
+  background: url(../../static/images/bg-cta-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+.home .break1 .overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(31, 33, 37, 0.92);
+}
+.home .break2 {
+  background-color: #f8f9fa;
+  height: 60px;
+}
