@@ -4,8 +4,6 @@ import { Link } from "gatsby"
 
 function HybridLink({ linkPath, linkName, requiredPathname, onClick }) {
   const location = useLocation()
-
-  console.log(location)
   if (location.pathname !== requiredPathname) {
     return <Link to={linkPath}>{linkName}</Link>
   } else {

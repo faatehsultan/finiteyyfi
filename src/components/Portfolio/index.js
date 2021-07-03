@@ -30,33 +30,33 @@ function Portfolio() {
       </div>
 
       <div className="container">
-        <div className="d-flex justify-content-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center" style={{flexWrap:"wrap"}}>
           <button
-            className="btn btn-danger mx-2 rounded-pill"
+            className="btn btn-danger m-1 rounded-pill"
             onClick={() => setCurTilesSet(PORTFOLIO_CATEGORIES[0])}
           >
             All
           </button>
           <button
-            className="btn btn-danger mx-2 rounded-pill"
+            className="btn btn-danger m-1 rounded-pill"
             onClick={() => setCurTilesSet(PORTFOLIO_CATEGORIES[1])}
           >
             De Ride App
           </button>
           <button
-            className="btn btn-danger mx-2 rounded-pill"
+            className="btn btn-danger m-1 rounded-pill"
             onClick={() => setCurTilesSet(PORTFOLIO_CATEGORIES[2])}
           >
             De Ride Captian App
           </button>
           <button
-            className="btn btn-danger mx-2 rounded-pill"
+            className="btn btn-danger m-1 rounded-pill"
             onClick={() => setCurTilesSet(PORTFOLIO_CATEGORIES[3])}
           >
             Others
           </button>
           <button
-            className="btn btn-danger mx-2 rounded-pill"
+            className="btn btn-danger m-1 rounded-pill"
             onClick={() => setCurTilesSet(PORTFOLIO_CATEGORIES[4])}
           >
             Control Panel
