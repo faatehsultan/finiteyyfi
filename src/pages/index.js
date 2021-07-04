@@ -7,7 +7,9 @@ import {
   ContactSection,
   Footer,
   Portfolio,
+  Partners,
 } from "../components"
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
@@ -18,6 +20,9 @@ export default function Home() {
       data-bs-offset="0"
       tabindex="0"
     >
+      <Helmet>
+        <title>Finiteyfi</title>
+      </Helmet>
       <Layout>
         <div id="hero">
           <Hero />
@@ -33,6 +38,12 @@ export default function Home() {
         <br />
         <div id="portfolio">
           <Portfolio />
+          <br />
+        </div>
+        <br />
+        <div className="break2"></div>
+        <div id="partners">
+          <Partners />
           <br />
         </div>
         <div className="break2"></div>

@@ -5,6 +5,7 @@ import Hero from "./Hero"
 import WelcomeSection from "./WelcomeSection"
 import ContactSection from "./ContactSection"
 import Portfolio from "./Portfolio"
+import Partners from "./Partners"
 
 export {
   Utils,
@@ -14,4 +15,5 @@ export {
   ContactSection,
   Footer,
   Portfolio,
+  Partners,
 }

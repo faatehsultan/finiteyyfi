@@ -82,7 +82,7 @@ function Header() {
           <li class="nav-item">
             <div className="px-2 nav-link">
               <HybridLink
-                linkPath="#"
+                linkPath="/#partners"
                 linkName="Partners"
                 requiredPathname="/"
               />
